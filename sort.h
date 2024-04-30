@@ -38,4 +38,6 @@ void swap_nodes(listint_t **list, listint_t *node);
 void merge(int *array, int *left, int *right, int left_count, int right_count);
 void sift_down(int *array, size_t start, size_t end, size_t size);
 void heapify(int *array, size_t size);
+int get_max(int *array, size_t size);
+void count_sort(int *array, size_t size, int exp);
 #endif
